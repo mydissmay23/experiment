@@ -1,0 +1,358 @@
+.consent,
+.instructions {
+  
+  .sectionHeader {
+    padding: 0rem;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 1rem;
+  }
+}
+
+.round {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .content {
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    min-height: 100%;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    .timer {
+      text-align: center;
+      position: fixed;
+
+      .seconds {
+        font-size: 3rem;
+        // Helvetica has tabular numbers (fixed width), which looks better
+        // for a timer, doesn't jump all over the place.
+        font-family: Helvetica, Arial, sans-serif;
+        color: green;
+      }
+      &.lessThan10 {
+        .seconds {
+          color: orange;
+        }
+      }
+      &.lessThan5 {
+        .seconds {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .task {
+    align-content: right;
+    padding: 3rem 0 0 0;
+
+    .single-slider-display {
+      margin-top: 25px;
+      display: inline-block;
+      width: 260px;
+      max-width: 260px;
+
+      input[type="range"] {
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+        width: 150px;
+        color: transparent;
+        border-color: transparent;
+        pointer-events: none;
+      };
+
+      input[type="range"]::-webkit-slider-runnable-track {
+        background: #d6d6d6;
+        height: 6px;
+        border-radius: 6px;
+        border: 0.8px solid #5b5b5b;
+      }
+
+      input[type="range"]::-moz-range-track {
+        background: #d6d6d6;
+        height: 6px;
+        border-radius: 6px;
+        border: 0.8px solid #5b5b5b;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 14px;
+        width: 7px;
+        background-color: #787878;
+        border-radius: 0px;
+        margin-top: -4.7px;
+        pointer-events: auto;
+      }
+
+      input[type="range"]::-moz-range-thumb {
+        border: none;
+        border-radius: 0px;
+        height: 14px;
+        width: 7px;
+        background-color: #787878;
+        pointer-events: auto;
+      }
+
+      input[type="range"]:focus {
+        outline: none;
+      }
+
+      input[type="range"]:focus::-webkit-slider-thumb {
+        background-color: #272727;
+      }
+
+      input[type="range"]:focus::-moz-range-thumb {
+        background-color: #272727;
+      }
+
+      .slider-value {
+        margin-left: 15px;
+      }
+    }
+
+    .slider-task {
+      
+      .slider-row-0 {
+        margin-left: 10px;
+      }
+
+      .slider-row-1 {
+        margin-left: 45px;
+      }
+
+      .slider-row-2 {
+        margin-left: 15px;
+      }
+
+      .slider-row-3 {
+        margin-left: 50px;
+      }
+
+      .slider-row-4 {
+        margin-left: 30px;
+      }
+
+      .slider-row-5 {
+        margin-left: 5px;
+      }
+
+      .slider-row-6 {
+        margin-left: 40px;
+      }
+
+      .slider-row-7 {
+        margin-left: 20px;
+      }
+
+      .slider-row-8 {
+        margin-left: 0px;
+      }
+
+      .slider-row-9 {
+        margin-left: 35px;
+      }
+
+      .slider-row-10 {
+        margin-left: 55px;
+      }
+
+      .slider-row-11 {
+        margin-left: 25px;
+      }
+
+      .slider-row-12 {
+        margin-left: 8px;
+      }
+
+      .slider-row-13 {
+        margin-left: 48px;
+      }
+
+      .slider-row-14 {
+        margin-left: 13px;
+      }
+
+      .slider-row-15 {
+        margin-left: 28px;
+      }
+
+      .slider-row-16 {
+        margin-left: 43px;
+      }
+
+      .slider-row-17 {
+        margin-left: 3px;
+      }
+
+      .slider-row-18 {
+        margin-left: 18px;
+      }
+
+      .slider-row-19 {
+        margin-left: 38px;
+      }
+
+      .slider-row-20 {
+        margin-left: 60px;
+      }
+
+      .slider-row-21 {
+        margin-left: 23px;
+      }
+
+      .slider-row-22 {
+        margin-left: 6px;
+      }
+
+      .slider-row-23 {
+        margin-left: 53px;
+      }
+
+      .slider-row-24 {
+        margin-left: 33px;
+      }
+
+      .slider-row-25 {
+        margin-left: 11px;
+      }
+
+      .slider-row-26 {
+        margin-left: 46px;
+      }
+
+      .slider-row-27 {
+        margin-left: 26px;
+      }
+
+      .slider-row-28 {
+        margin-left: 57px;
+      }
+
+      .slider-row-29 {
+        margin-left: 1px;
+      }
+
+      .slider-row-30 {
+        margin-left: 36px;
+      }
+
+      .slider-row-31 {
+        margin-left: 51px;
+      }
+
+      .slider-row-32 {
+        margin-left: 16px;
+      }
+
+      .slider-row-33 {
+        margin-left: 31px;
+      }
+
+      .slider-row-34 {
+        margin-left: 21px;
+      }
+
+      .slider-row-35 {
+        margin-left: 41px;
+      }
+    }
+  }
+
+  .feedback {
+    align-content: right;
+    padding: 0rem 1rem 0 2rem;
+  }
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.3rem;
+  border: 1px solid lightgray;
+  background-color: #eee;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.instructions,
+.quiz,
+.exit-survey {
+  button {
+    margin: 2rem 1rem 0 0;
+  }
+
+  label {
+    display: block;
+    margin: 1rem 0 1rem;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid lightgray;
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  textarea {
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid lightgray;
+  }
+
+  .multiple-choice {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+.exit-survey {
+  .form-line {
+    display: flex;
+
+    & > div {
+      margin-right: 30px;
+
+      textarea {
+        min-height: 90px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.completion-code {
+  align-content: right;
+  padding: 2rem 3rem;
+}
+
+.finished {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
